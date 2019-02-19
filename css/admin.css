@@ -1,0 +1,14 @@
+#footer-thankyou,
+#wp-admin-bar-wp-logo,
+#footer-upgrade,
+#dashboard-widgets-wrap {
+display:none;
+}
+
+#the-list span.w3tc_flush_post {
+  display: none;
+}
+
+#heateor_sss_meta {
+  display: none;
+}

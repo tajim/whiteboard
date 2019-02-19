@@ -1,0 +1,813 @@
+/*
+Theme Name: Setopati
+Theme URI: https://growcept.com/
+Author: Mohammad Tajim
+Author URI: https://taj.im/
+Description: Custom Theme For Setopati Made by Mohammad Tajim.
+Version: 4.3.19
+Text Domain: setopati
+Tags: setopati, blog
+*/
+
+.daily-menu #servertime{display: inline-block;border-right: 1px solid #ececec;padding-left: 8px;padding-right: 8px}
+
+.title-box h1 {
+	font-size: 26px;
+	font-weight: 500;
+}
+.title-box p {
+    font-size: 20px;
+    color: #8cb0d0;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.category_title, .widget-title {
+    font-size: 26px;
+	font-weight: 500;
+}
+
+#post-single .entry-content img {
+max-width:100%;
+height:auto;
+}
+#post-single .entry-content p {
+word-wrap:break-word;
+}
+
+ul.socialmedia {
+margin:14px 0px 0px 0px;
+padding:0px;
+}
+ul.socialmedia li {
+margin:0px 10px 0px 0px;
+padding:0px;
+list-style:none;
+float:right;
+}
+ul.socialmedia li .fa {
+background-color:#2C7063;
+color:#fff;
+text-align:center;
+padding-top:8px;
+width:32px;
+height:32px;
+border-radius:100%;
+}
+
+.read_more {
+display:none;
+}
+
+.foot-menu p {
+margin-bottom: 15px;
+}
+
+.bgoverlay {
+background-repeat:no-repeat;
+background-position:top center;
+background-size:cover;
+width:100%;
+height:500px;
+}
+.site-header {
+margin-bottom:25px;
+}
+
+.single-post .sticky #top-menu {
+display:none;
+}
+.header-labels {
+	text-align: center;
+}
+.header-labels h2 {
+color: #fff;
+background: #d13938 !important;
+font-size: 20px;
+padding: 10px 12px;
+font-weight: 400;
+display:inline-block;
+margin-bottom:10px;
+}
+
+#header .main-menu ul li.logoicon {
+display:none;
+}
+.sticky .main-menu ul li.logoicon {
+display:block !Important;
+background-image: url(img/no-logo.png);
+background-repeat:no-repeat;
+background-position:top center;
+width:35px;
+height:35px;
+text-indent:-1000px;
+margin-top: 7px;
+}
+
+.toprightad {
+margin:20px 0px;
+}
+
+.stButton .stBubble_count {
+    height: 41px !Important;
+}
+.stButton .stButton_gradient {
+    height: 22px !important;
+}
+
+.video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+.video-container iframe, .video-container object, .video-container embed, .video-container video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.block-ad {
+display:block;
+margin:20px auto;
+}
+
+.carousel-inner > .item {
+    -webkit-transition: 15s linear left;
+    -moz-transition: 15s linear left;
+    -o-transition: 15s linear left;
+    transition: 15s linear left;
+}
+
+#carousel-add {
+	margin-top: 10px;
+	max-height:210px;
+}
+#carousel-add div {
+	text-align: center;
+	width: 218px;
+	height: 201px;
+	position: relative;
+}
+#carousel-add div img {
+	border: none;
+}
+#carousel-add div span {
+	display: none;
+}
+#carousel-add div:hover span {
+	background-color: #333;
+	color: #fff;
+	font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
+	width: 100px;
+	padding: 2px 0;
+	margin: 0 0 0 -50px;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	border-radius: 3px;
+}
+
+
+.wrappedad {
+float:left;
+margin:4px auto 0px 0!important;
+}
+.wrappedad img {
+margin:0px 20px 0px 0px !important;
+}
+
+.modal-backdrop {
+opacity:1 !Important;
+background-color:#fff !important;
+}
+
+.skipbtn {
+background-color:#FF6600;
+color:#fff;
+padding:8px 25px;
+border:none;
+font-size:22px;
+margin-top:15px;
+}
+
+.stickyad {
+    position: fixed;
+    bottom: 0;
+    background: none;
+    z-index: 1000;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    width: 100%;
+}
+.testing-div {
+    position: fixed;
+    display: block;
+}
+.testing-div2 {
+    overflow: auto;
+}
+.close-button {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+.stickyad .fa-times {
+	font-size: 12px;
+}
+
+.sharethis_top {
+overflow:hidden;
+float:right;
+ margin-top: -7px;
+}
+.sharethis_top .jssocials-share-logo {
+    width: 1em;
+    vertical-align: middle;
+    font-size: 1em;
+}
+.sharethis_top ul.socialsingleshare {
+margin:-4px 20px 0px 0px;
+padding:0px;
+float:right;
+}
+.sharethis_top ul.socialsingleshare li {
+margin:0px 10px 0px 0px;
+padding: 4px 15px !important;
+float:left;
+list-style:none;
+width:32px;
+height:32px;
+display:inline-block !important;
+}
+/*
+.sharethis_top ul.socialsingleshare li .facebook {height: 35px;width: 35px;background-color: #297062;border-radius: 50%;display: inline-block;margin-right: 10px; text-align:center;}
+.sharethis_top ul.socialsingleshare li .facebook .fa{line-height: 35px;color: #ffffff;padding-right: 0px; text-align:center;}
+.sharethis_top ul.socialsingleshare li .twitter {height: 35px;width: 35px;background-color: #297062;border-radius: 50%;display: inline-block;margin-right: 10px; text-align:center;}
+.sharethis_top ul.socialsingleshare li .twitter .fa{line-height: 35px;color: #ffffff;padding-right: 0px;}
+.sharethis_top ul.socialsingleshare li .youtube {height: 35px;width: 35px;background-color: #297062;border-radius: 50%;display: inline-block;margin-right: 10px; text-align:center;}
+.sharethis_top ul.socialsingleshare li .youtube .fa{line-height: 35px;color: #ffffff;padding-right: 0px;}
+*/
+.singe-page-post {
+padding:0px 5px 5px 5px;
+}
+
+#alpha {
+clear:left !Important;
+}
+
+.latest_post {
+margin-bottom:35px;
+}
+
+.setopati-icon{
+    height: 200px;
+    width: 100%;
+}
+.setopati-share ul {
+	float: right !important;
+}
+.setopati-share ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.setopati-share ul li{
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.setopati-share ul li .fa{
+    color: #FFFFFF ;
+    font-size: 12px;
+}
+.setopati-share ul .fb{
+    height: 32px !important;
+    width: 32px;
+    background-color: #3B5998 ;
+    line-height: 32px;
+		padding: 0px 0px !important;
+}
+.setopati-share ul .tw{
+    height: 32px !important;
+    width: 32px;
+    background-color: #55ACEE ;
+    line-height: 32px;
+	padding: 0px 0px !important;
+}
+.setopati-share ul .in{
+    height: 32px !important;
+    width: 32px;
+    background-color: #0077B5 ;
+    line-height: 32px;
+	padding: 0px 0px !important;
+}
+.setopati-share ul .gp{
+    height: 32px !important;
+    width: 32px;
+    background-color: #DC4E41 ;
+    line-height: 32px;
+		padding: 0px 0px !important;
+}
+
+
+.sharelikes {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.growceptlogo {
+	display:block;
+	max-width:25%;
+	margin-top:0px;
+	margin-left:0px
+}
+
+
+.cover{
+	width: 100%;
+	min-height: 400px;
+	background: #000000;
+	padding:35px 0px;
+	margin-bottom:35px;
+	background-image: url(img/snowfall/cover3bg.jpg);
+	background-position:2% 17%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.cover .left-content{
+	padding-top: 0%;
+}
+.cover .left-content h4 {
+	margin-bottom: 10px;
+	font-size: 45px;
+	color:#fff;
+	line-height:1.6em;	
+}
+.cover .left-content p {
+font-size:19px;
+margin-bottom:15px;
+display:block;
+}
+.cover .small img{
+	float: left;
+	margin-right: 10px;
+}
+.cover .small p {
+	padding-top: 15px;
+	color: #ffffff;
+	font-size:24px;
+}
+.cover h2, .cover p{
+	color: #fff;
+}
+.left-content{
+	width: 85%;
+}
+.right-content{
+	position: relative;
+	padding-top: 5%;
+}
+.right-content p:before{
+	position: absolute;
+    content: '\f10d';
+    font-family: 'FontAwesome';
+    color: #000000;
+    margin-left: -21px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.insidecontentgallery .header-labels {
+	display:none;
+}
+.topplace .title-box {
+	display:none;
+}
+
+.snowfall {
+	background-color: #101010;
+	padding: 15px 0px 0px 0px;
+	color: #fff;
+	margin-bottom: 35px;
+}
+.snowfall .slugred {
+	color: #fff;
+	text-align: center;
+	background: #d13938 !important;
+	font-size: 20px;
+	padding: 10px 12px;
+	font-weight: 400;
+	display:inline-block;
+	margin-bottom:10px;
+}
+.snowfall h2 a, visited {
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.snowfall p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 25px;
+}
+.snowfall a,visited {
+	color: #fff;
+	font-size: 22px;
+	display: block;
+	margin-top: 10px;
+}
+.snowfall .author-bio {
+	margin: 20px 0px;
+}
+.snowfall .author-bio img {
+	max-width: 64px;
+	margin-right: 20px;
+	float: left;
+}
+
+.snowfall .author-bio .name {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.snowfall .bigimage {
+
+}
+
+.snowfall .bigimage blockquote {
+	font-size: 15px;
+	border: none;
+	margin-top: 70px;
+	line-height: 25px;
+}
+
+.snowfall .bigimage blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.snowfall .bigimage blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.snowfall .bigimage blockquote p {
+  display: inline;
+}
+#header .main-menu.singe-page-post ul.heateor_sss_sharing_ul {
+	float: right;
+}
+#header .main-menu.singe-page-post ul.heateor_sss_sharing_ul li {
+	display: inline-block !important;
+}
+
+.sharethis ul {
+	float: right;
+}
+
+.heateor_sss_square_count {
+	display: none !Important;
+}
+
+
+.iccposts {
+overflow:hidden;
+margin:15px 0px 35px 0px;
+}
+.iccposts img {
+max-width:100%;
+margin-bottom:10px;
+}
+.iccposts a, visited {
+font-size: 18px;
+color: #121212;
+line-height: 1.6em;
+font-weight: 600;
+}
+
+#header .main-menu ul li.live {
+    background-color: #287161;
+    color: #fff;
+}
+
+#singlejacketModal {
+height:100vh;
+background-color:#ffffff;
+}
+
+.sharethis_jsshare {
+float:right !important;
+}
+
+.sharethis_jsshare #share {
+display:inline-block; 
+float:right;
+}
+
+.sharethis_jsshare #sharecount {
+display:inline-block;
+font-family:Arial, Helvetica, sans-serif;
+float:right; 
+font-weight:600; 
+margin-top:14px; 
+margin-right:20px;
+margin-bottom:0px;
+font-size:28px;
+text-align:center;
+}
+.sharethis_jsshare #sharecount p {
+line-height:15px;
+}
+.sharethis_jsshare #sharecount .countlabel { 
+font-size:12px; 
+text-align: center;
+}
+.jssocials-share-link { border-radius: 50%; }
+
+.mashsb-count.mash-small {
+float:right !important;
+margin-top: 12px;
+color: #000;
+display:none;
+}
+.mashsb-sharetext {
+line-height:26px;
+}
+
+
+.comparison-table {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.comparison-table tr th {
+    text-align: center;
+    background-color: #1F7163;
+    color: #fff;
+    font-weight: 400;
+    font-size: 19px;
+}
+.comparison-table tr td.heading {
+    text-align: center;
+    background-color: #99BBD4;
+    color: #191919;
+    font-weight: 600;
+    font-size: 14px;
+}
+.comparison-table tr td {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0px;
+    border-left: 1px solid #ddd;
+}
+.comparison-table tr td img.partylogo {
+    max-width: 32px;
+    margin: 0px auto;
+    display: block;
+}
+
+
+.gallery-share {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.imgcapt {     
+	font-size: 20px;
+	padding-top: 15px;
+    text-align: center; 
+}
+
+.bold img {
+	width: 100%;
+}
+
+.bold {
+	position: relative;
+}
+
+.slider-next, .slider-prev {
+	position: absolute;
+	top: 40%;
+}
+
+.bold a {
+	color: #FFFFFF;
+}
+
+.slider-next {
+	right: 0%;
+}
+
+.setopati-share ul .g-share {
+	border-radius: 50%;
+}
+
+.sharable {
+display:inline-block !important;
+margin-right: 10px;
+}
+
+.setopati-share ul .g-share .fa {
+	font-size: 30px;
+}
+
+.fb-share-button span {
+   vertical-align: unset !important;
+}
+
+.setopati-share ul .g-share {
+	height: 40px !important;
+	width: 40px !important;
+	line-height: 51px;
+}
+
+.gallery-share .st-btn {
+	display: none !important;
+}
+
+.gallery-share .sharethis_jsshare {
+	float: none !important;
+	display: inline-block !important;
+}
+
+.thapnews {
+float: right;
+font-size: 14px;
+font-weight: 600;
+color: #d13938;
+}
+
+.home-search {
+display:inline-block;
+}
+#right-menu .search-form {
+height:24px;
+}
+.home-search .search-form .search-submit {
+  float: right;
+  background: url("img/icon-search.png") no-repeat;
+  width: 13px;
+  height: 13px;
+  text-indent: -9999px;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  position:relative;
+  z-index:10000;
+  margin: 6px -3px 0;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+	.bgoverlay {
+		height:300px;
+	}
+	.toptitle {
+	display:none;
+	}
+
+	.wrappedad {
+	float:none;
+	margin:0px auto 10px auto !important;
+	}
+	.wrappedad img {
+	margin:0px auto !important;
+	}
+	.close-button {
+	    position: absolute;
+	    right: 0px;
+	    top: -20px;
+	}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+	.close-button {
+			position: absolute;
+			right: 0px;
+			top: -20px;
+	}
+	.cover {
+	padding-top:0px;
+	background-image:none !Important;
+	background-color:#EBECEA !Important;
+	}
+	.cover .small p {
+		color: #191919;
+	}
+}	
+@media (min-width: 480px) and (max-width: 559px) {
+
+	.close-button {
+	    position: absolute;
+	    right: 0px;
+	    top: -20px;
+	}
+	
+	.cover {
+	padding-top:0px;	
+	background:none;
+	background-color:#EBECEA;
+	}
+	
+		.cover .small p {
+		color: #191919;
+	}
+
+
+}
+@media (min-width: 600px) and (max-width: 767px) {
+	.close-button {
+			position: absolute;
+			right: 0px;
+			top: -20px;
+	}
+	.cover {
+	padding-top:0px;	
+	background:none;
+	background-color:#EBECEA;
+	}
+	
+	.cover .small p {
+		color: #191919;
+	}
+	
+	
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.cover {
+	padding-top:0px;	
+	background:none;
+	background-color:#EBECEA;
+	}
+	
+	.close-button {
+	    position: absolute;
+	    right: 0px;
+	    top: -20px;
+	}
+	
+	.cover .small p {
+		color: #191919;
+	}
+	
+}
+
+
+/* Tables */
+.entry-content table {
+  font-size: 18px;
+  margin-bottom: 5%;
+  padding: 0;
+  width: 100%;
+}
+
+.entry-content table thead {
+  background: #f6f6f6;
+}
+.entry-content table thead th {
+  font-weight: bold;
+}
+
+.entry-content table td, #content table th {
+  padding: 15px;
+}
+
+.entry-content table td {
+  border-bottom: solid 1px #f6f6f6;
+}
+
+.entry-content table tr:last-child td {
+  border-bottom: none;
+}
+
+.entry-content table tr:nth-child(even) {
+  background: #f3f3f3;
+}
+
+.major-news-style ul li:first-child .entry-meta .category,
+.major-news-style .small-wrap .entry-meta .category {
+
+}
+
+.delterm-special {
+display:none;
+}
+
+h2.author_name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    margin-top: 16px;
+    line-height: 20px;
+}
+
+.location .entry-header {
+margin-top:15px;
+}
+
+.location ul li .entry-header h2 a {
+    font-weight: 700 !important;
+    line-height: 30px !important;
+}
